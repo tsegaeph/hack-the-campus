@@ -1,0 +1,8 @@
+# backup_config.bak
+# Old maintenance backup - DO NOT SHARE
+# This backup was stored during emergency maintenance in 2023 and accidentally left in the public archive.
+
+DB_HOST=localhost
+DB_USER=campus_admin
+# temporary admin token used during maintenance (forgotten here)
+ADMIN_TOKEN=ADM1N_LEGACY_2025

@@ -1,0 +1,4 @@
+[2025-10-25 13:01] INFO: Maintenance backup created: backup_config.bak
+[2025-10-25 13:02] INFO: Backup stored to public/assets/admin/
+[2025-10-25 13:05] WARN: Sensitive files should not reside in public directories
+[2025-10-25 13:07] ERROR: Unauthorized access attempt detected — reviewing backups
