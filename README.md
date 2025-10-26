@@ -1,22 +1,49 @@
-# Hack the Campus (Vite + React + TS)
+# 🎯 Hack The Campus — Interactive Cybersecurity Challenge
 
-This is a starter for the "Hack the campus" CTF-like UI with a neon cyberpunk main menu and a Roadmap screen.
+**Hack The Campus** is a gamified, interactive cybersecurity Capture the Flag (CTF) project designed within **2 days** for a Hackathon. The game introduces players to real-world cybersecurity concepts through story-driven challenges happening inside a university campus!
 
-Quick start:
-1. npm create vite@latest hack-the-campus -- --template react-ts
-2. cd hack-the-campus
-3. npm install
-4. npm install react-router-dom
-5. npm install -D @types/react-router-dom
-6. Replace the `src` and `index.html` with the files provided in this repo
-7. npm run dev
+Players explore digital clues, source code secrets, hidden data inside files, and vulnerable systems to uncover the final master flag. Each level introduces a new method of thinking like a hacker — but for learning and ethical knowledge only. 🔐👨‍💻
 
-What's included:
-- Neon main menu with START GAME / ABOUT / SETTINGS buttons
-- Roadmap screen with level nodes and SVG connectors
-- Basic styling and animations to match the screenshots' vibe
+---
 
-How to extend:
-- Add more levels in src/pages/Roadmap.tsx (the nodes array)
-- Connect nodes dynamically by adding connections in Roadmap
-- Replace background/graphics with assets you prefer
+## 🚀 Tech Stack
+
+- React + TypeScript + Vite ⚡
+- Modern UI design
+- Downloadable and inspectable challenge files
+- Browser-based gameplay (no signup needed)
+
+---
+
+## 🕹️ Gameplay Overview
+
+🏫 You are a curious student who stumbles upon suspicious activities across the campus network. Piece by piece, you discover hidden information, decode secrets, exploit web vulnerabilities, and unlock restricted systems — all while racing against time!
+
+The game features multiple cybersecurity challenge categories such as:
+- Steganography 🖼️
+- Cryptography 🔐
+- Web exploitation 🌐
+- File inspection 🗂️
+- OSINT-style discovery 🔎
+
+---
+
+## ✅ Play the Game
+
+👉 Live Demo:  
+🔗 https://hack-the-campuss.vercel.app  
+
+Try it out, crack the flags, and **Hack The Campus**! 🚨🎓
+
+---
+
+## 📌 Note
+
+This project is created strictly for educational and ethical cybersecurity awareness.  
+No real systems or data are involved.
+
+---
+
+If you have feedback or ideas, feel free to reach out!
+
+---
