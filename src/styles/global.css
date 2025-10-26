@@ -201,6 +201,8 @@ html,body,#root{ height:100%; margin:0; font-family: 'Orbitron', sans-serif; bac
 
 /* ----- About modal (cyan) ----- */
 .about-modal{
+  overflow: auto;
+  height: 60%;
   border:3px solid rgba(var(--neon-cyan),0.9);
   box-shadow: 0 30px 120px rgba(0,0,0,0.8), 0 0 36px rgba(var(--neon-cyan),0.06);
 }
@@ -229,10 +231,10 @@ html,body,#root{ height:100%; margin:0; font-family: 'Orbitron', sans-serif; bac
 .box{ margin-bottom:14px; padding:12px; border-radius:6px; }
 .mission-box{ border:2px solid rgba(var(--neon-cyan),0.2); background: rgba(0,0,0,0.45); color:#9ff; }
 .mission-box h3{ color:#8ef6b6; font-family:'VT323'; letter-spacing:1px; margin:0 0 8px 0; }
-.mission-box p{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; line-height: 1.5;}
+.mission-box p{font-size: 0.8rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; line-height: 1.5; letter-spacing: 0.1rem;}
 .objectives-box{ border:2px solid rgba(209,180,0,0.3); background: rgba(0,0,0,0.35); }
 .objectives-box h3{ color: #f0c94b; margin:0 0 6px 0; }
-.objectives-box ul{ margin:8px 0 0 20px; padding:0; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:#9fe; line-height: 1.5;}
+.objectives-box ul{ margin:8px 0 0 20px; padding:0; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:#9fe; line-height: 1.5; font-size: 0.8rem; letter-spacing: 0.1rem;}
 .dev-team-box{ border:2px solid rgba(255, 0, 0, 0.3); background: rgba(0,0,0,0.28); }
 .team-row{ display:flex; gap:10px; margin-top:8px; flex-wrap:wrap; }
 .role{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 1.3rem;}
