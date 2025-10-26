@@ -44,7 +44,7 @@ This mini-CTF blends fun, education, and real hacking skills into one gamified a
             </section>
 
             <section className="box dev-team-box">
-              <h3>DEVELOPMENT TEAM:</h3>
+              <h3>DEVELOPER:</h3>
               <div className="team-row">
                 <div className="team-card team-a">
                   <div className="name">Tsega Ephrem</div>
