@@ -347,7 +347,6 @@ input[type="range"].slider.cyan::-moz-range-track{
 
 }
   
-  /* background image layer - put your image at /public/assets/roadmap-bg.jpg */
 .styled-roadmap .map-layer{
     position:absolute;
     inset:0;

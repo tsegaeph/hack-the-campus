@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import NeonButton from "../components/NeonButton";
 import AccessAnimation from "../components/AccessAnimation";
@@ -25,7 +25,7 @@ export default function MainMenu() {
     <div className="screen main-screen">
       {/* Background video: put your video at /public/assets/bg.mp4 */}
       <video className="bg-video" autoPlay muted loop playsInline>
-        <source src="/assets/bg.mp4" type="video/mp4" />
+        <source src="./assets/bg.mp4" type="video/mp4" />
         {/* fallback */}
       </video>
 

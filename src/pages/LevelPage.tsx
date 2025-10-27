@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import TerminalChallenge from "../components/TerminalChallenge";
 
@@ -91,7 +90,7 @@ If you click HINT a time penalty will be applied.
 A framed photo of a steaming cup of coffee and a flaky croissant hangs on the cafeteria wall — a comforting sight students pass every morning. Recently the archives team flagged that the file used for the wall display looks subtly different from the original. You’re asked to take a closer look: download cafeteria_poster.png. Submit the flag before the timer runs out to help the cafeteria team restore trust in their materials.
 `;
     // For image-based level we provide the public file URL in public/assets
-    const imagePublicUrl = "/assets/cafeteria_poster.png";
+    const imagePublicUrl = "./assets/cafeteria_poster.png";
     const expectedFlag = "flag{caf3t3r1a_s3cr3ts_4r3_tasty}";
     const durationSeconds = 7 * 60; // 7 minutes for this level
 
@@ -115,7 +114,7 @@ A framed photo of a steaming cup of coffee and a flaky croissant hangs on the ca
 The campus website has been humming with small, unexplained updates — a page that used to be mundane now reads like a quiet riddle. The web team asked you to take a closer look.
 `;
     // Use the static portal HTML as the downloadable / inspectable resource (but TerminalChallenge will show a portal link after START)
-    const portalUrl = "/assets/web_explore/portal.html";
+    const portalUrl = "./assets/web_explore/portal.html";
     const expectedFlag = "flag{web_exploitation_practice}";
     const durationSeconds = 8 * 60; // 8 minutes for this level
     const hintText = "have you heared about inspection?";
@@ -149,9 +148,9 @@ You slip into the admin office after hours — keys jingling, fluorescent hum in
 
     // Provide multiple files: the two downloadable backups and the admin console (portal-like link)
     const files = [
-      { url: "/assets/admin/backup_config.txt", name: "backup_config.txt", isPortal: false, isImage: false },
-      { url: "/assets/admin/admin_logs.txt", name: "admin_logs.txt", isPortal: false, isImage: false },
-      { url: "/assets/admin/console.html", name: "Admin Console", isPortal: true, isImage: false },
+      { url: "./assets/admin/backup_config.txt", name: "backup_config.txt", isPortal: false, isImage: false },
+      { url: "./assets/admin/admin_logs.txt", name: "admin_logs.txt", isPortal: false, isImage: false },
+      { url: "./assets/admin/console.html", name: "Admin Console", isPortal: true, isImage: false },
     ];
 
     return (

@@ -58,7 +58,7 @@ class AudioManager {
 
   private initElements() {
     try {
-      const bg = new Audio("/assets/sounds/bg_loop.mp3");
+      const bg = new Audio("./assets/sounds/bg_loop.mp3");
       bg.loop = true;
       bg.preload = "auto";
       bg.volume = (this.settings.background || 0) / 100;
@@ -77,9 +77,9 @@ class AudioManager {
       }
     };
 
-    const click = make("/assets/sounds/click.wav");
-    const wrong = make("/assets/sounds/wrong.wav");
-    const success = make("/assets/sounds/success.wav");
+    const click = make("./assets/sounds/click.wav");
+    const wrong = make("./assets/sounds/wrong.wav");
+    const success = make("./assets/sounds/success.wav");
 
     if (click) this.sounds.click = click;
     if (wrong) this.sounds.wrong = wrong;

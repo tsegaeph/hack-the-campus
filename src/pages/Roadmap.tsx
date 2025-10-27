@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import LevelNode from "../components/LevelNode";
 import { loadProgress, clearProgress } from "../utils/progress";
@@ -13,11 +13,11 @@ type Node = {
 };
 
 const NODES: Node[] = [
-  { id: "lvl1", x: 14, y: 64, label: "Level 1\nLIBRARY", img: "/assets/building.png" },
-  { id: "lvl2", x: 32, y: 46, label: "Level 2\nSERVER LAB", img: "/assets/building.png" },
-  { id: "lvl3", x: 50, y: 58, label: "Level 3\nCAFETERIA", img: "/assets/building.png" },
-  { id: "lvl4", x: 68, y: 44, label: "Level 4\nCAMPUS WEBSITE", img: "/assets/building.png" },
-  { id: "lvl5", x: 86, y: 56, label: "Level 5\nADMIN OFFICE", img: "/assets/building.png" },
+  { id: "lvl1", x: 14, y: 64, label: "Level 1\nLIBRARY", img: "./assets/building.png" },
+  { id: "lvl2", x: 32, y: 46, label: "Level 2\nSERVER LAB", img: "./assets/building.png" },
+  { id: "lvl3", x: 50, y: 58, label: "Level 3\nCAFETERIA", img: "./assets/building.png" },
+  { id: "lvl4", x: 68, y: 44, label: "Level 4\nCAMPUS WEBSITE", img: "./assets/building.png" },
+  { id: "lvl5", x: 86, y: 56, label: "Level 5\nADMIN OFFICE", img: "./assets/building.png" },
 ];
 
 export default function Roadmap() {
@@ -85,7 +85,7 @@ export default function Roadmap() {
             } catch {
               // fallback: try direct audio element (best-effort)
               try {
-                const a = new Audio("/assets/sounds/click.wav");
+                const a = new Audio("./assets/sounds/click.wav");
                 a.play().catch(() => {});
               } catch {}
             }

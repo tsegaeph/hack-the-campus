@@ -1,4 +1,3 @@
-import React from "react";
 import AudioManager from "../utils/AudioManager";
 
 type Props = {
